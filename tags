@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Matrix	simplex.cpp	/^class Matrix$/;"	c	file:
+divideFreeMember	simplex.cpp	/^void divideFreeMember(Matrix<v_t> &  x_before, std::size_t & column_index, std::size_t & row_index)$/;"	f
+dividePivotColumn	simplex.cpp	/^void dividePivotColumn( Matrix<v_t> & x,  std::size_t & row , std::size_t & col)$/;"	f
+findMaxModuleElement	simplex.cpp	/^void findMaxModuleElement(const Matrix<v_t> & x, std::size_t & column_index ) \/\/number of colum with abs max value$/;"	f
+findMaxValue	simplex.cpp	/^void findMaxValue( Matrix<v_t> & x , v_t & max)$/;"	f
+findMinColumnElement	simplex.cpp	/^void findMinColumnElement(Matrix<v_t> & x, std::size_t&  row_index)$/;"	f
+getCol	simplex.cpp	/^	size_t getCol() const$/;"	f	class:Matrix
+getElement	simplex.cpp	/^	v_t & getElement( const std::size_t i , const std::size_t j) const$/;"	f	class:Matrix
+getRow	simplex.cpp	/^	size_t getRow() const$/;"	f	class:Matrix
+initialize	simplex.cpp	/^	void initialize( const std::size_t r, const std::size_t c )$/;"	f	class:Matrix
+mColCount	simplex.cpp	/^	size_t mColCount;$/;"	m	class:Matrix	file:
+mData	simplex.cpp	/^	v_t * mData;$/;"	m	class:Matrix	file:
+mRowCount	simplex.cpp	/^	size_t mRowCount;$/;"	m	class:Matrix	file:
+main	simplex.cpp	/^int main()$/;"	f
+myAbs	simplex.cpp	/^v_t   myAbs(v_t   var)$/;"	f
+myRound	simplex.cpp	/^v_t  myRound( v_t  varm)$/;"	f
+myRound_1	simplex.cpp	/^void myRound_1(v_t varm, v_t result)$/;"	f
+readMatrix	simplex.cpp	/^void readMatrix(Matrix<v_t> & matrix, std::ifstream & like_pipe)$/;"	f
+setElement	simplex.cpp	/^	void setElement( const std::size_t i, const std::size_t j,const  v_t  e)$/;"	f	class:Matrix
+showMatrix	simplex.cpp	/^void showMatrix( Matrix<v_t> & x)$/;"	f
+simplexMethod	simplex.cpp	/^void simplexMethod(const  Matrix<v_t> & a, const  Matrix<v_t> &b, Matrix<v_t> &x)$/;"	f
+substractPivotRow	simplex.cpp	/^void substractPivotRow( Matrix<v_t> & x, std::size_t & index_row, std::size_t & index_column)$/;"	f
+supplementStep	simplex.cpp	/^void supplementStep(const  Matrix<v_t> & a, const  Matrix<v_t> &b, Matrix<v_t> &x)$/;"	f
+writeMatrix	simplex.cpp	/^void writeMatrix(const Matrix<v_t> & matrix , std::ofstream & like_pipe)$/;"	f
